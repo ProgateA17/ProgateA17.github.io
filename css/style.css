@@ -1,3 +1,63 @@
 body {
   background-color:white;
+  font-family: 'Sarabun', sans-serif;
+  color: #727272;
 }
+
+.container {
+  width: 1170px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.kategori-wrapper {
+  padding: 0px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.kategori {
+  float:left;
+  width: 20%
+}
+
+.heading-kategori {
+  padding-bottom: 5px;
+}
+
+.heading-kategori h3 {
+  font-weight: 600;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.kategori {
+  transition: transform .2s;
+}
+
+.kategori:hover {
+  transform: scale(1.1);
+}
+
+.bg_kat {
+  width: 180px;
+}
+
+.kategori-icon {
+  position: relative;
+}
+
+.kategori-icon p {
+  position: absolute;
+  top: 120px;
+  font-size: 25px;
+  width: 100%;
+}
+
+.icons {
+  position: absolute;
+  width:150px;
+  top: 10px;
+  left: 45px;
+}
+
