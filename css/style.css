@@ -5,21 +5,24 @@ body {
 }
 
 .container {
-  width: 1170px;
-  padding: 0px;
-  margin: 0px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 /*bagian Guca*/
 .kategori-wrapper {
-  padding: 0px;
+  height: 500px;
+  padding-bottom: 80px;
   text-align: center;
-  font-size: 30px;
 }
 
 .kategori {
-  float:left;
-  width: 20%
+  float: left;
+  width: 20%;
+  transition: transform .2s;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .heading-kategori {
@@ -27,39 +30,33 @@ body {
 }
 
 .heading-kategori h3 {
+  font-size: 30px;
   font-weight: 600;
   text-align: left;
-  padding-left: 40px;
-}
-
-.kategori {
-  transition: transform .2s;
+  margin-left: 60px;
 }
 
 .kategori:hover {
   transform: scale(1.1);
 }
 
-.bg_kat {
+.bg-kategori {
+  position: absolute;
   width: 180px;
 }
 
-.kategori-icon {
-  position: relative;
-}
-
 .kategori-icon p {
-  position: absolute;
-  top: 120px;
+  position: relative;
   font-size: 25px;
-  width: 100%;
+  bottom: 30px;
+  left: 15px;
 }
 
 .icons {
-  position: absolute;
-  width:150px;
+  position: relative;
+  width: 150px;
   top: 10px;
-  left: 45px;
+  left: 17px;
 }
 /*bagian Guca*/
 
