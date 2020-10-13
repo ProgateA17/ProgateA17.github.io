@@ -1,6 +1,16 @@
 /*Tabelt */
 @media all and (max-width: 1000px) {
-  
+  /*bagian Guca*/
+  .kategori {
+        flex-wrap: wrap;
+        width: 50%;
+    }
+
+   .heading-kategori h3 {
+        text-align: center;
+        margin-right: 32px;
+   }
+  /*bagian Guca*/
 }
 
 /* Smartphone */
