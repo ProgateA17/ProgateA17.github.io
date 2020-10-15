@@ -11,9 +11,42 @@
         margin-right: 32px;
    }
   /*bagian Guca*/
+  
+  /* Bagian Syafa' */
+    .child-barang {
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .heading-barang {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* Bagian Syafa' */
 }
 
 /* Smartphone */
 @media all and (max-width: 670px) {
+    /* Bagian Syafa' */
+    .child-barang {
+        width: 100%;
+        margin-bottom: 50px;
+    }
 
+    .heading-barang {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .sony,
+    .iwatch {
+        display: none;
+    }
+
+    span {
+        display: block;
+    }
+
+    /* Bagian Syafa' */
 }
