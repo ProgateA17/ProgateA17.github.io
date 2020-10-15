@@ -58,5 +58,9 @@ body {
   top: 10px;
   left: 17px;
 }
+
+.clear {
+  clear:left;
+}
 /*bagian Guca*/
 
