@@ -18,7 +18,7 @@ body {
 /*bagian Guca*/
 .kategori-wrapper {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
 }
 
 .kategori {
@@ -27,6 +27,7 @@ body {
   transition: transform .2s;
   padding-left: 15px;
   padding-right: 15px;
+  margin-bottom:50px;
 }
 
 .heading-kategori {
@@ -48,10 +49,6 @@ body {
 .bg-kategori {
   position: absolute;
   width: 180px;
-}
-
-.kategori-icon {
-    margin-bottom: 50px;
 }
     
 .kategori-icon p {
