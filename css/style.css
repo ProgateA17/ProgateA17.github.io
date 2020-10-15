@@ -27,8 +27,6 @@ body {
   transition: transform .2s;
   padding-left: 15px;
   padding-right: 15px;
-    
-  margin-bottom: 30px;
 }
 
 .heading-kategori {
@@ -56,6 +54,10 @@ body {
   font-size: 25px;
   bottom: 30px;
   left: 15px;
+}
+
+.kategori-icon {
+   margin-bottom: 30px;
 }
 
 .icons {
