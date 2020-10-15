@@ -49,6 +49,10 @@ body {
   width: 180px;
 }
 
+.kategori-icon {
+    margin-bottom:50px;
+}
+
 .kategori-icon p {
   position: relative;
   font-size: 25px;
