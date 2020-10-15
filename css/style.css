@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
 body {
   background-color:white;
   font-family: 'Sarabun', sans-serif;
@@ -64,3 +69,91 @@ body {
 }
 /*bagian Guca*/
 
+/* Bagian Syafa' */
+.heading-barang {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+
+}
+
+.parent-barang {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.child-barang {
+    flex: auto;
+    width: 25%;
+}
+
+.content-barang {
+    width: 220px;
+    height: 308px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+    background-color: white;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.content-barang img {
+    width: 100%;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.content-barang:hover {
+
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+.content-barang img:hover {
+
+    transform: scale(1.4);
+    transition: all 0.3s;
+}
+
+.content-barang:active {
+    transform: scale(1);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.25);
+    cursor: default;
+}
+
+.txt-content-barang {
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+.txt-content-barang p {
+    margin-top: 5px;
+}
+
+span {
+    display: none;
+    transition: all 0.1s;
+}
+
+span a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #727272;
+}
+
+span:hover {
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+
+span:active {
+    transform: scale(1);
+    transition: all 0.1s;
+}
+/* Bagian Syafa' */
