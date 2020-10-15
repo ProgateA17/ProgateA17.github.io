@@ -1,7 +1,7 @@
-/*Tabelt */
-@media all and (max-width: 1000px) {
-  /*bagian Guca*/
-     .kategori {
+@media all and (max-width:1000px) {
+
+    /*bagian Guca*/
+    .kategori {
         flex-wrap: wrap;
         width: 50%;
     }
@@ -10,9 +10,10 @@
         text-align: center;
         margin-right: 32px;
     }
-  /*bagian Guca*/
-  
-  /* Bagian Syafa' */
+
+    /*bagian Guca*/
+
+    /* Bagian Syafa' */
     .child-barang {
         width: 50%;
         margin-bottom: 50px;
@@ -26,8 +27,66 @@
     /* Bagian Syafa' */
 }
 
-/* Smartphone */
-@media all and (max-width: 670px) {
+@media all and (max-width:670px) {
+
+    /* Bagian Gede*/
+    .text {
+        font-size: 11px;
+    }
+
+    /* Bagian Gede*/
+
+    /* Bagian Wahyu*/
+    ul li.logo img {
+        width: 50px;
+    }
+
+    ul li.trolley img {
+        width: 15px;
+    }
+
+    ul div.item li a {
+        display: none;
+    }
+
+    ul li.search-icon input {
+        width: 50px;
+    }
+
+    ul li.search-icon button {
+        font-size: 8px;
+        cursor: pointer;
+    }
+
+    ul li.search-icon {
+        width: 20px;
+        height: 10px;
+    }
+
+    ul li.trolley {
+        padding-left: 80px;
+    }
+
+    ul div.item li span {
+        display: flex;
+        font-size: 10px;
+    }
+
+    /* Bagian Wahyu*/
+
+
+    /* Bagian Guca */
+    .kategori {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .heading-kategori h3 {
+        text-align: center;
+        margin-right: 32px;
+    }
+
+    /* Bagian Guca */
     /* Bagian Syafa' */
     .child-barang {
         width: 100%;
@@ -49,15 +108,17 @@
     }
 
     /* Bagian Syafa' */
-    
-    /*bagian Guca*/
-    .kategori {
-        flex-wrap: wrap;
-        width: 100%;
+
+    /* Bagian Excel */
+    .contact li {
+        float: none;
+        text-align: center;
+        padding-bottom: 0;
     }
 
-    .heading-kategori h3 {
-        text-align: center;
-        margin-right: 32px;
+    .btn-wrapper a {
+        width: 10px;
     }
+
+    /* Bagian Excel */
 }
