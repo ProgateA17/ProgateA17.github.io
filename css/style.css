@@ -27,6 +27,8 @@ body {
   transition: transform .2s;
   padding-left: 15px;
   padding-right: 15px;
+    
+  margin-bottom: 30px;
 }
 
 .heading-kategori {
