@@ -32,15 +32,14 @@ body {
 
 .heading-kategori {
   padding-bottom: 5px;
-}
-
-.heading-kategori h3 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 50px;
   font-size: 30px;
   font-weight: 600;
   text-align: left;
-  margin-left: 60px;
-  margin-bottom: 30px;
 }
+
 
 .kategori:hover {
   transform: scale(1.1);
