@@ -249,7 +249,7 @@ ul div.item li.masuk a:hover {
     width: 180px;
 }
 
-.kategori a, p {
+.kategori a:link {
     text-decoration: none;
     color: #727272;
 }
