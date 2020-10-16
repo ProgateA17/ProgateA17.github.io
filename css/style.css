@@ -249,6 +249,10 @@ ul div.item li.masuk a:hover {
     width: 180px;
 }
 
+.link-brg a {
+    text-decoration: none;
+}
+    
 .kategori-icon p {
     position: relative;
     font-size: 25px;
